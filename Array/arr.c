@@ -27,10 +27,10 @@ int main()
                 if (a[i] < a[j] && a[j] % 2 != 0)
                 {
                     a[i] = a[j];
-                }
+                }//end of inner if
             }
-        }
-    }
+        }//end of else
+    }//end of outermost for
     printf("\nLargest even number is:- %d", a[0]);
     printf("\nLargest odd number is:- %d", a[1]);
     return 0;
