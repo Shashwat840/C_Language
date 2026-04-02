@@ -6,9 +6,9 @@ void main(){
 }
 void swap(int *x , int *y){
    int a,b;
-   printf("\nEnter value of a:- ");
+   printf("\nEnter value of x you want to swap:- ");
    scanf("%d",&a);
-   printf("\nEnter value of b:- ");
+   printf("\nEnter value of y you want to swap:- ");
    scanf("%d",&b);
    x = &a;
    y = &b;
