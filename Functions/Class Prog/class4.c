@@ -1,3 +1,5 @@
+//With one return value 
+//It is an example of with retrun type with argument
 #include <stdio.h>
 int addFun();
 int main(){
