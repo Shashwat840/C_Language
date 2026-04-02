@@ -2,6 +2,8 @@
 void swap(int *x , int *y);
 void main(){
     int x=10 , y = 5;
+    printf("\nValue of x:- %d",x);
+    printf("\nValue of y:- %d",y);
     swap(&x,&y);
 }
 void swap(int *x , int *y){
@@ -12,5 +14,6 @@ void swap(int *x , int *y){
    scanf("%d",&b);
    x = &a;
    y = &b;
-   printf("\nValue of x and y are %d and %d..",*x,*y);
+   printf("\nValue of x:- %d",*x);
+    printf("\nValue of y:- %d",*y);
 }

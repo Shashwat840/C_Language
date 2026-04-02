@@ -38,3 +38,4 @@ Passing parametres to the function
     1) "Refrence" to actual parametre are passed into formal parametres
     2) Change in formal parametre will result in change in actual parametres
     3) Pointers are used 
+    
