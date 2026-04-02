@@ -24,3 +24,17 @@ Categories of function
     2) no return type with argument (NRWA)
     3) no return type no argument (NRNA)
     4) With return type with argument (WRWA) 
+
+----------------------------------------------------------------------------------------
+Passing parametres to the function 
+    Diffrence between call by value and call by refrence 
+    
+    Call by value :- 
+    1) The "copy" of actual parametre are passed into formal Parametre
+    2) Change in formal parametre will not result in change in actual parametre
+    3) Pointers are not used
+
+    Call by refrence(&):- 
+    1) "Refrence" to actual parametre are passed into formal parametres
+    2) Change in formal parametre will result in change in actual parametres
+    3) Pointers are used 
