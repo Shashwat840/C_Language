@@ -38,4 +38,43 @@ Passing parametres to the function
     1) "Refrence" to actual parametre are passed into formal parametres
     2) Change in formal parametre will result in change in actual parametres
     3) Pointers are used 
-    
+--------------------------------------------------------------------------------------
+Scope of variables
+    Local variables:- 
+    1) Declared inside the function body 
+    2) Not initilised automatically
+    3) use of local varible are advicible 
+
+    Global variables:- 
+    1) Declared outside the function body
+    2) initilised automatically by value 0 or dependent on type
+    3) Too much use of Global variables makes the program diffcult 
+
+Local variables
+
+Inside the fun 
+They are created when the function is called and destroyed automatically when 
+the fun is exited
+You may also use the keyword auto to declare automtic varibles 
+main(){
+    auto int a;
+} 
+-----------------------------
+External variables / Global variables
+
+We can use keyword exterm before the data type to declare 
+main(){
+    extem int a;
+}
+----------------------------
+Static variables
+    The value of static varible stays untill the end of prog 
+    Static int a;
+---------------------------
+Register variables
+    we can tell the compiler that a varible should be kept in one the machine register
+    insted of keeping in memory 
+    Scince the register access is much faster then memory access
+    ex :- register int count; 
+-----------------------------
+WAP of calculator using UDF
