@@ -11,3 +11,11 @@ Elements of UDF
 name 
 
 3) The declaration of function is required for declaration of variables 
+
+Function Declaration(Function Prototype)
+    It consistis of four parts:- 
+        1) Funtion type 
+        2) Function Name 
+        3) Parametre list 
+        4) Termination (;)
+Example in class 4
