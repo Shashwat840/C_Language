@@ -19,3 +19,8 @@ Function Declaration(Function Prototype)
         3) Parametre list 
         4) Termination (;)
 Example in class 4
+Categories of function 
+    1) With return type no argument (WRNA)
+    2) no return type with argument (NRWA)
+    3) no return type no argument (NRNA)
+    4) With return type with argument (WRWA) 
