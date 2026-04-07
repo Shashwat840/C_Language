@@ -78,3 +78,4 @@ Register variables
     ex :- register int count; 
 -----------------------------
 WAP of calculator using UDF
+WAP to find out max out of three number
