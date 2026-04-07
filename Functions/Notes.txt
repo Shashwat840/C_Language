@@ -88,4 +88,20 @@ The pre Processors
     It operates under the control of what it is know as pre processer command lines
     they all begins with symbol # and do not require a semicolon at the end 
 
+    This directives can be divided into three parts 
+        1) MicroSubstitution directives
+        2) File inclusion directives    
+        3) Complier controlled directives
+
+    1) MicroSubstitution means to replace the micro by the microstrings 
+        ex--> #define macro_name string; 
+              #define max 10;
+        Here the pre processer relaces the max everywhere in the prog by 10 
+        micro is mainely used for fast execution
+
+    2) File inclusion starts from #include 
+        #include <filename>
+            ex-> #include<stdio.h>
     
+    3) Complier control in ANSI more pre processers are used for conditions 
+        ex #if , #elif , #else 
