@@ -79,3 +79,4 @@ Register variables
 -----------------------------
 WAP of calculator using UDF
 WAP to find out max out of three number
+WAP which recives no as argument and returns sum as a dig of that no
