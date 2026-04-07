@@ -1,5 +1,6 @@
 //WAP to find str and return length of the string 
 #include <stdio.h>
+int stLen(char str[]);
 int main(){
     char str[100];
     int i=0;
