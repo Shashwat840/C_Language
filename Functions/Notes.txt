@@ -80,3 +80,12 @@ Register variables
 WAP of calculator using UDF
 WAP to find out max out of three number
 WAP which recives no as argument and returns sum as a dig of that no
+--------------------------------------------------------------------------------------
+The pre Processors
+    It is a program that processes the source code before it passes throught the 
+    compiler 
+    
+    It operates under the control of what it is know as pre processer command lines
+    they all begins with symbol # and do not require a semicolon at the end 
+
+    
