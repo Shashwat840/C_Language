@@ -32,4 +32,5 @@ Pointer arithemetic in C:-
         --> inc/dec is mainely used in array Because it is contigous(Line by Line) location
         morever in contigous memory allocation the value of next or previous location is 
         known 
-            ex:- 
+    2) Addition Subtraction in pointer :-  
+        We can add of Subtract values from pointer varible 
