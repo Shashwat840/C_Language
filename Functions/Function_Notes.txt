@@ -117,3 +117,6 @@ What is recursion?
         2) Base case:- Some termination condition 
     
     Because if the process is not terminating at some point then it will go into infinite loop 
+-------------------------------------------------------------------------------------------
+Advantages and disadvantages of recursion
+    
