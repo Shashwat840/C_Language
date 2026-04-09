@@ -17,9 +17,6 @@ void Fibonacii(int n){
         b=ans;
         printf("\t%d",ans);
         sum = sum + ans;
-        // ans=a;
-        // Fibonacii(n-1);
     }
-    // printf("\nLast element:- %d",ans);
     printf("\nSum of fibonacii upto last element is:- %d",sum);
 }
