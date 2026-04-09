@@ -12,5 +12,10 @@ Concept:-
     p ---> address of a 
  -----------------------------------------------------------------------------------------
  Pointer declaration:- 
-    int *a;
-    float *d;
+    int *a; --> Pointer to integer
+    float *d; --> Pointer to float 
+
+Pointer initilisation:- 
+    To initilise a pointer we assign it the address of a varible using the symbol &(Address of operator)
+    Syntax:- 
+        datatype * pointer_name = & var_name; --->Gives the address of variable 
