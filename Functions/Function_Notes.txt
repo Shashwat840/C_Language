@@ -118,5 +118,11 @@ What is recursion?
     
     Because if the process is not terminating at some point then it will go into infinite loop 
 -------------------------------------------------------------------------------------------
-Advantages and disadvantages of recursion
-    
+Advantages and disadvantages of recursion:- 
+    1) Complex can be easily retured in less code 
+    2) By using recursion infinite set of objects can be defined in finite way 
+
+disadvantages of recursion:- 
+    1) It uses more memory so genrally it is slow 
+    2) Temination condition is lost thus it will go in infinite loop 
+------------------------------------------------------------------------------------------
