@@ -19,3 +19,17 @@ Pointer initilisation:-
     To initilise a pointer we assign it the address of a varible using the symbol &(Address of operator)
     Syntax:- 
         datatype * pointer_name = & var_name; --->Gives the address of variable 
+-----------------------------------------------------------------------------------------
+Pointer arithemetic in C:- 
+    Following arithemetic operation are possible on the pointer 
+        1) Increment 
+        2) Decrement
+        3) Addition 
+        4) Subtraction
+        5) Comparision 
+    -----------------------------------------------------------------------------------------
+    1) Increment Decrement of pointer:- 
+        --> inc/dec is mainely used in array Because it is contigous(Line by Line) location
+        morever in contigous memory allocation the value of next or previous location is 
+        known 
+            ex:- 
