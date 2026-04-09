@@ -105,3 +105,15 @@ The pre Processors
     
     3) Complier control in ANSI more pre processers are used for conditions 
         ex #if , #elif , #else 
+----------------------------------------------------------------------------------
+What is recursion?
+    It is a process in which a "fun calls itself" directly or indirectrly to solve a 
+    problem 
+
+    It divides a problem into smaller chunks of the same type  
+    
+    For this process we required two cases:- 
+        1) Recursive case :- Fun calls itself 
+        2) Base case:- Some termination condition 
+    
+    Because if the process is not terminating at some point then it will go into infinite loop 
