@@ -9,11 +9,11 @@ int main(){
 }
 void Hi(int x){
     if(x<=0){
-        printf("\nBye...");
+        printf("\nBye...");//Nase class called
     }
     else{
         printf("\nHi");
-            Hi(x-1);
+            Hi(x-1);//Recursion called
         
     } 
 }
