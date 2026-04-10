@@ -38,3 +38,17 @@ Pointer arithemetic in C:-
 Pointer Comparision:- 
     1) When two pointers point to the objects of the same datatypes they can be compared
     using relational operators 
+--------------------------------------------------------------------------------------
+Pointer to Pointer(Double Pointer):- 
+    --> When we define pointer to pointer the first pointer is used to store the address 
+    of the varible and second pointer is used to store the address of first pointer 
+    that is why they are called as double pointer 
+
+    --> It is similar to pointer but the diffrence is the additional star before the name 
+    of pointer 
+--------------------------------------------------------------------------------------
+Pointer and array:- 
+    --> When an array is being declared the complier allocates a base address and sufficent 
+    amt of storage to contain all the elements of the array in contigous memory allocation
+
+    --> The base address is the location of the first element index[0]  
