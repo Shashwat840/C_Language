@@ -34,3 +34,7 @@ Pointer arithemetic in C:-
         known 
     2) Addition Subtraction in pointer :-  
         We can add of Subtract values from pointer varible 
+--------------------------------------------------------------------------------------
+Pointer Comparision:- 
+    1) When two pointers point to the objects of the same datatypes they can be compared
+    using relational operators 
