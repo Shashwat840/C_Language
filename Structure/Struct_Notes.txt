@@ -40,5 +40,4 @@ Accessing Structure members :-
     ex:- book1.price;
 ---------------------------------------------------------------------------------------
 Structure initilisation:- 
-    Like any other datatype a Structure variable can be initilised at "compile time"
-     
+    Like any other datatype a Structure variable can be initilised at "compile time"   
