@@ -1,0 +1,40 @@
+========================Structure=================================
+Intro:- 
+    --> Array is used to store sequence of elements of same datatype but if you want to 
+    represent the collection of diffrent datatype using single name can be possible in 
+    Structure.
+    --> So C lang supports a constructed datatype know as Structure for pathing data 
+    of diffrent types 
+---------------------------------------------------------------------------------------
+Define:- A Structure is a convinient tool for handling a group of logically related 
+data items 
+---------------------------------------------------------------------------------------
+Format of Structure :- 
+    struct tag_name{
+        datatype var_name;
+    };
+
+    struct book_bank{
+        char book_name[20];
+        char author[20];
+        float price;
+    };
+---------------------------------------------------------------------------------------
+Structure declaration:- 
+    --> A Structure declaration is similar to declaration of any variable 
+    --> It includes the following elements 
+        1) The keyword struct
+        2) The Structure tag_name
+        3) List of variables seprated by commas 
+        4) A termination semicolon 
+    struct book_bank{
+        char book_name[20];
+        char author[20];
+        float price;
+    }book1,book2,book3;
+---------------------------------------------------------------------------------------
+Accessing Structure members :- 
+    --> The link between a member and a variable is established using the dot operator 
+    Syntax:-    
+        struct_var.member;
+    ex:- book1.price;
