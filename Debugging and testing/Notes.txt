@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------------------
+Errors:- An error is a mistake in a program that prevents it from compiling , running
+or producing correct output 
+
+    1) Syntax error:- This occurs when rules of programming language when rules of programming
+    language breaks and the compiler dectects it 
+        ex:- printf("Hello...") --> Missing semicolon
+    
+    2) Logical errors:- The program runs but give wrong output 
+        ex:- int a=5 , b=0;
+             printf("%d",a/b); --> Division is not possible 
+    
+    3) Run Time error:- Error that occurs that occurs while running the program 
+        ex:- int a=5 , b=0;
+             printf("%d",a/b); --> Division is not possible
+
+    4) Symantic error:- Meaning of the statement is incorrect even though the 
+    syntax is correct 
+        ex:- int a = "Hello"; --> Datatype mismatch 
+    
+    5) Linker error:- Occurs during linking state happens when function defination is 
+    missing 
+        ex:- calling of function 
+
+    6) Compilation error:- Genrally error shown by compiler 
