@@ -40,3 +40,6 @@ it run correctly
 
     Rubber duck debugging :- It explain the code line by line to someone else or even 
     a rubber duck 
+
+    Unit testing:- The small modules are checked independently to check correctness 
+    the large programs are divided into small modules known as units for testing 
