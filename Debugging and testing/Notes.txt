@@ -23,3 +23,20 @@ or producing correct output
         ex:- calling of function 
 
     6) Compilation error:- Genrally error shown by compiler 
+--------------------------------------------------------------------------------------
+Debugging Techniques:- Debugging is the process of finding and fixing errors or bugs in a program to make 
+it run correctly
+
+    1) Code review:- Carefully read your code line by line to find syntax error 
+    and Logical mistakes 
+
+    2) Using print stmt:- In printf to check the value of diffrent varibles 
+
+    3) Dry run or tracing:- Manually flow the code logic with sample input helps to 
+    dectect Logical error before running the program 
+
+    4) Using debugger:- Tools like GDB in C and C++ the debugger allows setting break 
+    points, step by step execution inspecting varible value at runtime 
+
+    Rubber duck debugging :- It explain the code line by line to someone else or even 
+    a rubber duck 
