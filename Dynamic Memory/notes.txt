@@ -1,0 +1,32 @@
+Diffrence between malloc and calloc 
+--------------------------------------------------------------------------------------
+malloc:- 
+    1) The malloc stands for memory allocation
+    2) void *malloc(size_t n) return a pointer to an bytes of uninitialised 
+    stroage , or null if the request cannot be satisfied if the space assigned by malloc
+    is overrun , the results are undefined 
+    3) malloc takes one args that is number of bytes
+    4) malloc is faster than calloc
+
+calloc:- 
+    1) calloc stands for contigious allocation 
+    2) void *calloc (size_t n, sizet_size); it returns a pointer to enough free space 
+    for an array of an objects of specified size or null if request cannot be satisfied 
+    3) The stroage is initilised to 0
+    4) calloc takes two args that is number of blocks and size of each block 
+    5) calloc takes little longer than malloc because of extra steps called initilised 
+    to zero however it is very tiny and non recognisable 
+--------------------------------------------------------------------------------------
+Diffrence between dynamic memory and static memory
+
+Static memory:- 
+    1) Performed at compile time 
+    2) Assigned to stack 
+    3) Size must be known at compile time 
+    4) It is best if the required size of memory known in advance 
+
+Dynamic memory:- 
+    1) Performed at run time
+    2) Assigned to heap  
+    3) Size may be unknown at compile time 
+    4) It is best if we don't have idea about how much memory is required
