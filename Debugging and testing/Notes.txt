@@ -85,3 +85,23 @@ GDB:- It is a powerful command line debugger for C and C++
 IDE(Integrated Devlopment environment):- 
 --> IDE offers bulit in debuggers that provides user friendly interface compared to 
 GDB for debugging C programs 
+    Key Features:- 
+        1) Graphical Interface for user
+        2) Integration with source code (Highlight the current line when executed)
+        3) Visulisation Tools
+--------------------------------------------------------------------------------------
+Testing:- 
+    1) Writing Test cases:- A test case is a specific format used in software testing 
+    to C if an application or software is running properly in simple terms it includes
+    various details of actual output that matches the expected output 
+        
+        Parametres of Test cases 
+            1) Test Case Id.
+            2) Description 
+            3) Preconditions 
+            4) Test steps 
+            5) Input data 
+            6) Expected results 
+            7) Actual Results 
+            8) Status 
+            9) Remarks or comments 
