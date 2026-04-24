@@ -43,3 +43,45 @@ it run correctly
 
     Unit testing:- The small modules are checked independently to check correctness 
     the large programs are divided into small modules known as units for testing 
+--------------------------------------------------------------------------------------
+Types of testing:-
+    White box testing---->
+        1) Unit Testing:- Testing indivisual units or modules of a program (When everything 
+        is diffrent)
+        
+        2) Integration Testing:- Testing the combinations of two or more modules togather 
+        It checks integration between modules (OOP) 
+        
+        3) System Testing:- Testing enitre system as a whole 
+        --> Ensures that everything works from start to end 
+        
+        4) Acceptance Testing:- Performed by cliet and end user
+        --> Checks if system meets user requirements
+        
+        5) Functional Testing:- Test the Functionality of software based on what the
+        system is supposed to do.
+        
+        6) Non Functional Testing:- Test the Performace , speed , security , usablity execution
+        
+        7) White Box Testing:- Tester knows the internal code structure(Logic) 
+    
+    Black Box Testing(Only outer testing):- Tester does not know the internal code structure 
+    --> Test only input and output.
+--------------------------------------------------------------------------------------
+
+GDB:- It is a powerful command line debugger for C and C++
+    --> It allows you to check program line by line , insecpt varibles and execution flow
+    and pin point box in your code in your codes.
+    
+    
+    Key Features:- 
+    1)Line by line execution 
+    2) Break Point
+    3) Varible insepection
+    4) Stack Trace 
+    5) Memory Eximination (Check overflowing of stack)
+    6) Command line interface 
+--------------------------------------------------------------------------------------
+IDE(Integrated Devlopment environment):- 
+--> IDE offers bulit in debuggers that provides user friendly interface compared to 
+GDB for debugging C programs 
