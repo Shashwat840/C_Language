@@ -51,4 +51,4 @@ Pointer and array:-
     --> When an array is being declared the complier allocates a base address and sufficent 
     amt of storage to contain all the elements of the array in contigous memory allocation
 
-    --> The base address is the location of the first element index[0]  
+    --> The base address is the location of the first element index[0]
