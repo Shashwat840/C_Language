@@ -1,7 +1,7 @@
 What is pointer?
     ---> A pointer is a varible that stores the memory address of another varible 
 
-    ---> Insted of stroing a value directly a pointer stores where that value is located in the
+    ---> Insted of storing a value directly a pointer stores where that value is located in the
     memory 
 -----------------------------------------------------------------------------------------
 Concept:- 
