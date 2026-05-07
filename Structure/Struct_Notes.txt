@@ -1,4 +1,4 @@
-========================Structure=================================
+            ========================Structure=================================
 Intro:- 
     --> Array is used to store sequence of elements of same datatype but if you want to 
     represent the collection of diffrent datatype using single name can be possible in 
