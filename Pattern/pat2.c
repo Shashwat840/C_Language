@@ -3,15 +3,15 @@ int main(){
     int i,j,k,r;
     printf("\nEnter number of rows:- ");
     scanf("%d",&r);
-    int m = 1;
     for(i=1;i<=r;i++){
-        // for(k=r;k>=i;k--){
-        //     printf(" ");
-        // }
+        //space logic
+        for(k=r;k>=i;k--){
+            printf(" ");
+        }
+        //Printing logic 
         for(j=1;j<=i;j++){
             
-            printf("%d",m);
-            m++;    
+            printf("* ");    
         }
         printf("\n");
     }
