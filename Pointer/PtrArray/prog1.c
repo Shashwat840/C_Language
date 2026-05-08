@@ -2,11 +2,12 @@
 int main(){
     int no[5],sum =0;
     int *ptr,i;
+    ptr = no;
     for(i=0;i<5;i++){
         printf("\nEnter value of no[%d]:- ",i);
-        scanf("%d",&no[i]);
+        scanf("%d",(ptr+i));
     }
-    ptr = no;
+    
     printf("\nElements\tValue\tAddress\n");
     for(i=0;i<5;i++){
         printf("\tno[%d]\t%d\t%d",i,*(ptr+i),ptr);
