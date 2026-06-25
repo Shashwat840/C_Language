@@ -40,7 +40,7 @@ int main(){
     }
     printf("\nSorted array:- ");
     for(int i =0;i<5;i++){
-        printf("\n%d",arr[i]);
+        printf("\t%d",arr[i]);
     }
     return 0;
 }
